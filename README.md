@@ -30,8 +30,7 @@ http.createServer(function(request, response) {
 }).listen(8888);
 ```
 
-Let's write the equivalent code in Express. First, run `git clone https://github.com/olinjs/olinjs-2.git` as in the last
-lesson to clone this repository. Next, in the `olinjs-2/` folder, run the command `npm install`. (If this triggers lots of
+Let's write the equivalent code in Express. First, fork the repository to your account as we did in the last room. Then `git clone https://github.com/<YOUR GITHUB USERNAME>/olinjs-2.git` as in the last lesson to clone this repository. Next, in the `olinjs-2/` folder, run the command `npm install`. (If this triggers lots of
 lines with errors, run `sudo npm install` instead, or send us an email).
 
 Next, create a file named `app.js` in that folder and paste in the following:
